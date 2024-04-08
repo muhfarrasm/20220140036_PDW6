@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Biodata</title>
+    <link rel="stylesheet" href="styleCH5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viner+Hand+ITC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h3><img src="asset/aftershine.png" alt="Logo Aftershine"></h3>
+        <h1>
+            <img src="asset/logo-removebg-preview.png" alt="Gambar" id="gambar" onclick="toggleText()">
+        </h1>
+        <p>Klik logo untuk menampilkan penjelasan</p>
+        <div id="teks1" style="display: none;">Aftershine adalah sebuah grup musik bergenre pop Jawa dan koplo asal Indonesia. Grup musik ini berasal dari Kabupaten Sleman, Daerah Istimewa Yogyakarta.</div>
+        
+        <ul>
+            <li>
+                <h2 id="video">Video Klip Kalah</h2>
+                <hr>
+                <div class="video-container">
+                    <video id="music1" controls width="100%" loop autoplay muted preload="auto">
+                        <source src="asset/Aftershine ft. Restianade - Kalah (Official Music Video).mp4" type="video/mp4">
+                        <track kind="captions" src="asset/Aftershine ft. Restianade - Kalah (Official Music Video).mp4" srclang="en" label="English">
+                    </video>
+                </div>
+            </li>
+            <li>
+                <h2 id="video">Video Klip Kalah 2 </h2>
+                <hr>
+                <div class="video-container">
+                    <video id="music2" controls width="100%" loop autoplay muted preload="auto">
+                        <source src="asset/Aftershine - Kalah 2 (Official Music Video).mp4" type="video/mp4">
+                        <track kind="captions" src="asset/Aftershine - Kalah 2 (Official Music Video).mp4" srclang="en" label="English">
+                    </video>
+                </div>
+            </li>
+            <li>
+                <h2 id="video">Video Klip Kisinan</h2>
+                <hr>
+                <div class="video-container">
+                    <video id="music3" controls width="100%" loop autoplay muted preload="auto">
+                        <source src="asset/KISINAN - MASDDDHO (OFFICIAL MUSIC VIDEO).mp4" type="video/mp4">
+                        <track kind="captions" src="asset/KISINAN - MASDDDHO (OFFICIAL MUSIC VIDEO).mp4" srclang="en" label="English">
+                    </video>
+                </div>
+            </li>
+            <li>
+                <h2 id="audio">Audio Kalah</h2>
+                <hr>
+                <audio id="music4" controls>
+                    <source src="asset/Y2meta.app - Aftershine ft. Restianade - Kalah (Official Music Video) (128 kbps).mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="audio">Audio Kalah 2</h2>
+                <hr>
+                <audio id="music5" controls>
+                    <source src="asset/Y2meta.app - Aftershine - Kalah 2 (Official Music Video) (128 kbps).mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="audio">Audio Kisinan</h2>
+                <hr>
+                <audio id="music6" controls>
+                    <source src="asset/Y2meta.app - KISINAN - MASDDDHO (OFFICIAL MUSIC VIDEO) (128 kbps).mp3" type="audio/mp3">
+                </audio>
+            </li>
+        </ul>
+    </div>
+    <script src="jsCH5.js"></script>
+<body>
+</html>
